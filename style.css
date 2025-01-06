@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Merienda;
+}
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 80px;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 0px 10px rgb(219, 218, 218);
+}
+
+.nav-container h2{
+    font-size: 1.8rem;
+}
+
+.nav-elements a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    margin: 0px 8px;
+    font-size: 1.3rem; 
+    border-radius: 5px;
+    position: relative;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.nav-elements a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background: linear-gradient(to right,rgb(220, 124, 242), rgb(178, 62, 210));
+    transition: width 0.3s  ease-in-out;
+}
+
+.nav-elements a:hover::after{
+    width: 100%;
+}
+
+
+.nav-elements a {
+    will-change: font-size, transform, width;
+}
+
+.signin-btn{
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, lightgreen,  rgb(127, 212, 190), rgb(97, 168, 231));
+}
+
+.signin-btn:hover{
+    box-shadow: 0px 0px 20px rgb(200, 244, 232);
+}
