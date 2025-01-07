@@ -35,13 +35,14 @@
       <form class="form">
         <h2>Contact Form</h2>
         <div>
-          <input type="text" placeholder="Full Name" class="input" />
-          <input type="email" placeholder="Email" class="input" />
+          <input type="text" placeholder="First Name" class="input name" />
+          <input type="text" placeholder="Last Name" class="input name" />
         </div>
         <div>
-          <input type="number" placeholder="Mobile" class="input" />
-          <input type="text" placeholder="Subject" class="input" />
+          <input type="email" placeholder="Email" class="input name" />
+          <input type="number" placeholder="Mobile" class="input name" />
         </div>
+        <div><input type="text" placeholder="Subject" class="input" /></div>
         <textarea
           name=""
           id=""
@@ -66,7 +67,7 @@
     <!-- Social Media Links -->
     <div class="panels">
       <div class="contact-panel">
-        <h3>(+977) 9876543210</h3>
+        <h3><i class="fa-solid fa-phone contact-icon"></i>(+977) 9876543210</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
           exercitationem ab quisquam libero nam itaque. Quis quasi provident
@@ -74,7 +75,7 @@
         </p>
       </div>
       <div class="contact-panel">
-        <h3>(+977) 9876543210</h3>
+        <h3><i class="fa-solid fa-envelope contact-icon"></i>mail@gmail.com</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
           exercitationem ab quisquam libero nam itaque. Quis quasi provident
@@ -82,7 +83,9 @@
         </p>
       </div>
       <div class="contact-panel">
-        <h3>(+977) 9876543210</h3>
+        <h3>
+          <i class="fa-solid fa-location-dot contact-icon"></i>Bharatpur Chitwan
+        </h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
           exercitationem ab quisquam libero nam itaque. Quis quasi provident
@@ -90,94 +93,77 @@
         </p>
       </div>
     </div>
-    <hr />
     <!-- Google map Location -->
-    <table>
-      <tr>
-        <td>
-          &emsp;&emsp; &emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;
-          &emsp;&emsp; &emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;
-        </td>
-        <td>
-          <h2>
-            &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
-            &emsp; &nbsp; Find Us On Google Maps
-          </h2>
-          <br />
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <div class="mapouter">
-            <div class="gmap_canvas">
-              <iframe
-                width="900"
-                height="400"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=Bharatpur-6%2C+Chowkbazar&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-              ></iframe
-              ><br />
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <br /><br />
-    <hr />
+    <div class="map">
+      <h2>Find Us On Google Map</h2>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="1200"
+            height="450"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Bharatpur-6%2C+Chowkbazar&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><br />
+        </div>
+      </div>
+    </div>
     <!-- Footer Section -->
-    <table>
-      <tr>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-      </tr>
-      <tr>
-        <td>&emsp; &emsp; &emsp;</td>
-        <td><b>© GadgetPulse Nepal Pvt. Ltd. 2013-2023</b></td>
-        <td>
-          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-          &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-          &emsp; &emsp;
-        </td>
-        <td><b>Submit News</b></td>
-        <td>&emsp; &emsp;</td>
-        <td><b>About GadgetPulse</b></td>
-        <td>&emsp; &emsp;</td>
-        <td><b>Advertise with us</b></td>
-        <td>&emsp; &emsp;</td>
-        <td><b>Privacy Policy</b></td>
-        <td>&emsp; &emsp;</td>
-        <td><b>Contact</b></td>
-        <td>&emsp; &emsp;</td>
-      </tr>
-      <tr>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-        <td><br /></td>
-      </tr>
-    </table>
+    <footer class="footer-section">
+      <div class="bottom-element">
+        <div class="footer">
+          <div class="footer-logo">
+            <h2>ELECTRONICS</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              aliquid.
+            </p>
+          </div>
+          <div class="footer-elements">
+            <h4>Navigaiton</h4>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Contact Us</div>
+            <div>Services</div>
+          </div>
+          <div class="footer-elements">
+            <h4>Quick Link</h4>
+            <div>Contact Us</div>
+            <div>FAQs</div>
+            <div>Bookings</div>
+            <div>Pages</div>
+          </div>
+          <div class="footer-elements">
+            <h4>Services</h4>
+            <div>Home</div>
+            <div>Contact</div>
+            <div>Blog</div>
+            <div>404</div>
+          </div>
+        </div>
+        <div class="footer-media">
+          <h3>
+            <i class="fa-solid fa-location-dot contact-icon"></i>Bharatpur
+            Chitwan
+          </h3>
+          <h3>
+            <i class="fa-solid fa-phone contact-icon"></i>(+977) 9876543210
+          </h3>
+          <h3>
+            <i class="fa-solid fa-envelope contact-icon"></i>mail@gmail.com
+          </h3>
+          <div>
+            <i class="fa-brands fa-facebook media-icon"></i>
+            <i class="fa-brands fa-instagram media-icon"></i>
+            <i class="fa-brands fa-whatsapp media-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">&copy; 2023 Electronics - All Rights Reserved</div>
+    </footer>
   </body>
 </html>
