@@ -72,7 +72,8 @@
 }
 
 .left-introduction p{
-    padding: 40px 0px ;
+    padding: 40px 0px;
+    font-size: 1.2rem;
 }
 
 .explore-btn{
@@ -81,6 +82,8 @@
     border-radius: 5px;
     color: rgb(7, 28, 35);
     font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
     background: linear-gradient(to right,rgb(156, 209, 225),rgb(15, 181, 231));
 }
 
@@ -90,8 +93,10 @@
     border-radius: 5px;
     color: rgb(7, 28, 35);
     font-weight: 600;
+    font-size: 1rem;
     margin-left: 20px;
     background-color: white;
+    cursor: pointer;
 }
 
 .right-introduction{
@@ -287,7 +292,7 @@
 .art-container{
     height: 440px;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 0px 10px gray;
 }
 
 .art-container h2{
@@ -311,6 +316,67 @@
     row-gap: 40px;
 }
 
+/* aboutus-hero-image */
+.aboutus-hero-image{
+    background-color: rgb(21, 95, 117);
+    color: white;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    -webkit-text-stroke: 2px;
+}
+
+.about-images{
+    box-shadow: 0px 0px 10px rgb(43, 42, 42);
+    background-color: rgb(21, 95, 117);
+}
+
+.aboutus-hero-section{
+    position: relative;
+    height: 740px;
+}
+
+.nft{
+    width: 100%;
+}
+
+.nft1{
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    width: 240px;
+}
+
+.nft2{
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    width: 200px;
+}
+
+.nft3{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    width: 200px;
+}
+
+.nft5{
+    position: absolute;
+    top: 350px;
+    left: 880px;
+    width: 200px;
+}
+
+.nft4{
+    position: absolute;
+    top: 300px;
+    left: 1120px;
+    width: 200px;
+}
+
 
 /* form */
 .contact{
@@ -324,8 +390,10 @@
     display: flex;
     flex-direction: column;
     margin: auto auto;
-    padding: 10px;
+    padding: 20px 30px;
     gap: 16px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
 }
 
 .form h2{
@@ -361,6 +429,7 @@
     padding: 10px 0px;
     background-color: rgb(57, 115, 132);
     color: white;
+    cursor: pointer;
 }
 
 .letter-form{
@@ -397,6 +466,7 @@
     color: white;
     border-radius: 20px;
     padding: 8px 0px;
+    cursor: pointer;
 }
 
 .panels{
@@ -404,6 +474,7 @@
     margin: 100px 180px;
     margin-left: 255px;
     gap: 30px;
+    cursor: pointer;
 }
 
 .contact-panel{
