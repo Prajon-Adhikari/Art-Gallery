@@ -21,6 +21,7 @@
 
 .nav-container h2{
     font-size: 1.8rem;
+    color: rgb(113, 181, 210);
 }
 
 .nav-elements a{
@@ -42,7 +43,7 @@
     width: 0;
     height: 4px;
     border-radius: 10px;
-    background: linear-gradient(to right,rgb(220, 124, 242), rgb(178, 62, 210));
+    background: linear-gradient(to right,rgb(140, 195, 218), rgb(82, 157, 190));
     transition: width 0.3s  ease-in-out;
 }
 
@@ -66,4 +67,121 @@
 
 .signin-btn:hover{
     box-shadow: 0px 0px 20px rgb(200, 244, 232);
+}
+
+/* form */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    padding: 10px;
+    gap: 16px;
+}
+
+.form h2{
+    font-size: 2.6rem;
+    padding-bottom: 10px;
+    color: rgb(57, 115, 132);
+}
+
+.input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 250px;
+    border: none;
+    background-color: rgb(214, 228, 245);
+    outline: none;
+    margin-right: 8px;
+}
+
+.message-box{
+    width: 410px;
+    height: 100px;
+}
+
+.submit-btn{
+    width: 100px;
+    margin: 8px;
+    border-radius: 20px;
+    border: none;
+    padding: 6px 0px;
+    background-color: rgb(57, 115, 132);
+    color: white;
+}
+
+.letter-form{
+    width: 360px;
+    padding: 20px 24px;
+    background-color: rgb(57, 115, 132);
+    color: white;
+    border-radius: 20px;
+}
+
+.letter-form h3{
+    font-size: 1.8rem;
+    padding-bottom: 8px;
+}
+
+.letter-contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap:20px;
+}
+
+.letter-email{
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.letter-submit{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 0px;
+}
+
+.panels{
+    display: flex;
+    margin: 80px 200px;
+    margin-left: 250px;
+    gap: 20px;
+}
+
+.contact-panel{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px grey;
+  background: linear-gradient(
+    to top,
+    rgb(57, 115, 132) 0%,
+    rgb(57, 115, 132) 100%
+  );
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  color: black;
+}
+
+.contact-panel h3{
+    font-size: 1.4rem;
+}
+
+.contact-panel p{
+    padding: 16px 0px 40px 0px;
+}
+
+.contact-panel:hover{
+    background-size: 100% 100%;
+  color: white;
 }

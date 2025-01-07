@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -24,213 +31,65 @@
       </div>
     </nav>
     <img src="image/contact.png" width="100%" alt="" />
-    <br /><br /><br /><br />
-    <table>
-      <tr>
-        <td>
-          &emsp;&emsp; &emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;
-          &emsp;&emsp; &emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;
-          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        </td>
-        <td>
-          <fieldset>
-            <table>
-              <tr>
-                <td rowspan="2">
-                  <img src="image/phone.png" width="40px" alt="" />
-                </td>
-                <td>&emsp;</td>
-                <td><b>Phone Number : </b></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>+9779862783319</td>
-              </tr>
-            </table>
-          </fieldset>
-        </td>
-        <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-        <td rowspan="5">
-          <fieldset>
-            <!-- Contact Form -->
-            <form action="">
-              <h2>&emsp;Send Message</h2>
-              <p>&emsp;Send your details to contact</p>
-              <table>
-                <tr>
-                  <br />
-                </tr>
-                <tr>
-                  <td>&emsp;</td>
-                  <td>
-                    <label for="name">Name :</label><br />
-                    <input type="text" placeholder="Name" id="name" />
-                  </td>
-                  <td>&emsp;&emsp;</td>
-                  <td>
-                    <label for="email">Email :</label><br />
-                    <input type="email" placeholder="Email Address" id="name" />
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td><br /></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td>
-                    <label for="phone">Phone :</label><br />
-                    <input type="text" placeholder="Phone Number" id="phone" />
-                  </td>
-                  <td>&emsp;&emsp;</td>
-                  <td>
-                    <label for="subject">Subject :</label><br />
-                    <input type="text" placeholder="Subject" id="subject" />
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td><br /></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td colspan="3">
-                    <label for="message">Message :</label><br />
-                    <textarea name="" placeholder="Message" id=""></textarea>
-                  </td>
-                  <td>&emsp;&emsp;</td>
-                </tr>
-                <tr>
-                  <td><br /><br /></td>
-                  <td>
-                    <br /><input type="submit" name="" id="" value="Submit" />
-                    <br /><br />
-                  </td>
-                </tr>
-              </table>
-            </form>
-          </fieldset>
-        </td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <fieldset>
-            <table>
-              <tr>
-                <td rowspan="2">
-                  <img src="image/email.png" width="40px" alt="" />
-                </td>
-                <td>&emsp;</td>
-                <td><b>Email Address : </b></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>gadgetpulse@gmail.com</td>
-              </tr>
-            </table>
-          </fieldset>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <fieldset>
-            <table>
-              <tr>
-                <td rowspan="2">
-                  <img src="image/home-address.png" width="40px" alt="" />
-                </td>
-                <td>&emsp;</td>
-                <td><b>Fax Address : </b></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Bharatpur</td>
-              </tr>
-            </table>
-          </fieldset>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-          <fieldset>
-            <table>
-              <tr>
-                <td rowspan="2">
-                  <img src="image/location.png" width="40px" alt="" />
-                </td>
-                <td>&emsp;</td>
-                <td><b>Location : </b></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Bharatpur-6,Chitwan</td>
-              </tr>
-            </table>
-          </fieldset>
-        </td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><br /><br /></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <br /><br /><br /><br />
+    <div class="contact">
+      <form class="form">
+        <h2>Contact Form</h2>
+        <div>
+          <input type="text" placeholder="Full Name" class="input" />
+          <input type="email" placeholder="Email" class="input" />
+        </div>
+        <div>
+          <input type="number" placeholder="Mobile" class="input" />
+          <input type="text" placeholder="Subject" class="input" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          placeholder="Message"
+          class="input message-box"
+        ></textarea>
+        <input type="submit" class="submit-btn" />
+      </form>
+      <div class="letter-form">
+        <h3>Our Newsletters</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          sapiente molestiae nobis necessitatibus recusandae eaque soluta quo
+          labore accusantium odit?
+        </p>
+        <div class="letter-contact">
+          <input type="email" class="letter-email" placeholder="Email" />
+          <button class="letter-submit">Submit</button>
+        </div>
+      </div>
+    </div>
     <!-- Social Media Links -->
-    <h2>
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &nbsp;
-      &nbsp;You Can Also Contact Us Here
-    </h2>
-    <br />
-    <table>
-      <tr>
-        <td>
-          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        </td>
-        <td>
-          <a href="https://www.facebook.com/"
-            ><img src="image/facebook.png" width="40px" alt=""
-          /></a>
-        </td>
-        <td>&emsp;&emsp;&emsp;&emsp;</td>
-        <td>
-          <a href="https://www.instagram.com/"
-            ><img src="image/insta.webp" width="40px" alt=""
-          /></a>
-        </td>
-        <td>&emsp;&emsp;&emsp;&emsp;</td>
-        <td>
-          <a href="https://www.whatsapp.com/"
-            ><img src="image/whatsapp.png" width="50px" alt=""
-          /></a>
-        </td>
-        <td>&emsp;&emsp;&emsp;&emsp;</td>
-        <td>
-          <a href=""><img src="image/github.png" width="40px" alt="" /></a>
-        </td>
-      </tr>
-    </table>
-    <br /><br />
+    <div class="panels">
+      <div class="contact-panel">
+        <h3>(+977) 9876543210</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
+          exercitationem ab quisquam libero nam itaque. Quis quasi provident
+          mollitia.
+        </p>
+      </div>
+      <div class="contact-panel">
+        <h3>(+977) 9876543210</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
+          exercitationem ab quisquam libero nam itaque. Quis quasi provident
+          mollitia.
+        </p>
+      </div>
+      <div class="contact-panel">
+        <h3>(+977) 9876543210</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ex
+          exercitationem ab quisquam libero nam itaque. Quis quasi provident
+          mollitia.
+        </p>
+      </div>
+    </div>
     <hr />
     <!-- Google map Location -->
     <table>
