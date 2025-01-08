@@ -302,6 +302,7 @@
     height: 440px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
 }
 
 .art-container h2{
@@ -329,7 +330,7 @@
 .aboutus-hero-image{
     background-color: rgb(21, 95, 117);
     color: white;
-    height: 400px; 
+    height: 350px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,7 +351,7 @@
 .blank-space{
     background-color: rgb(21, 95, 117);
     clip-path: polygon(0 0,100% 0, 100% 0, 50% 100%);
-    height: 140px;
+    height: 180px;
 }
 
 .nft{
@@ -448,8 +449,8 @@
     padding: 60px 10px 20px 10px;
     font-size: 2rem;
     color: rgb(21, 95, 117);
-    text-align: center;
 }
+
 .acrylic-painting-container{
     display: grid;
     grid-template-columns: repeat(4, 300px);
@@ -545,10 +546,14 @@
 .nft-images{
     width: 280px;
     margin-right: 110px;
-    box-shadow: 40px -40px 0px rgb(21, 95, 117);
+    box-shadow: 60px -60px 0px rgb(21, 95, 117);
 }
 
-.nft-images img{
+.nft-images2{
+    box-shadow: 40px -40px 0px rgb(65, 133, 163);
+}
+
+.nft-images2 img{
     width: 100%;
     box-shadow: 20px -20px 0px rgb(139, 197, 215);
 }
@@ -566,7 +571,7 @@
 }
 
 .see-more{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: rgb(21, 95, 117);
     text-align: right;
     padding:30px;
@@ -772,4 +777,239 @@
     color: white;
     padding-top: 30px;
     text-align: center;
+}
+
+
+/* profile-section */
+.profile-section{
+    margin: 80px 100px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.profile-hero{
+    width: 100%;
+}
+
+.profile-hero img{
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 20px;
+}
+
+.profile-img i{
+    background-color: rgb(181, 177, 177);
+    padding: 40px 45px;
+    color: rgb(239, 237, 237);
+    border-radius: 50%;
+    font-size: 5rem;
+}
+
+.profile-info{
+    color: rgb(11, 45, 56);
+}
+
+.profile-info h1{
+    display: flex;
+    align-items: center;
+}
+
+.profile-info h1 span{
+    font-size: 16px;
+    margin-left: 30px;
+    background-color: rgb(215, 210, 210);
+    padding:4px 16px;
+    border-radius: 5px;
+    color: rgb(240, 44, 73);
+}
+
+.connection{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* setting */
+.profile-details{
+    display: flex;
+    margin: 0px 100px;
+    gap: 100px;
+    padding: 10px 40px;
+}
+
+.setting-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 140px;
+    padding: 60px 0px;
+}
+
+.setting-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+/* personal-information-heading */
+.personal-information{
+    width: 1000px;
+    padding: 20px 40px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 10px rgb(129, 128, 128);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.personal-information-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-information-heading h3{
+    font-size: 1.4rem;
+}
+
+.personal-information-heading button{
+    padding: 6px 20px;
+    font: 1.1rem;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.security-name{
+    display: flex;
+    gap: 100px;
+}
+
+.first-security-name div, .second-security-name div{
+    color: gray;
+}
+
+.last-security-name{
+    margin-left: 65px;
+}
+
+/* account-section */
+.security-section{
+    margin: 100px 0px;
+}
+
+.account-details{
+    box-shadow: 0px 0px 10px rgb(129, 128, 128);
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 50px 0px;
+}
+
+.account-details h4{
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+
+.verify-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+
+.verify-password, .recovery-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verify-info{
+    padding: 20px 0px;
+}
+
+.verified div{
+    padding: 6px 40px;
+    background-color: rgb(140, 228, 140);
+    margin-left: 10px;
+}
+
+.change-password button{
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.recovery{
+    border-bottom: 2px solid rgb(219, 218, 218);
+}
+
+.input-email input{
+    padding: 3px 16px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+/* security */
+.security{
+    display: flex;
+    gap: 20px;
+}
+
+/* authentication */
+.authentication{
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 420px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(129, 128, 128);
+    height: 400px;
+}
+
+.authentication h2{
+    border-bottom: 2px solid rgb(219, 218, 218);
+    padding-bottom: 10px;
+}
+
+.enable-authentication{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+.enable{
+    border-bottom: 2px solid rgb(219, 218, 218);
+}
+
+.enable p{
+    padding-bottom: 10px;
+    color: rgb(129, 128, 128);
+}
+
+.authentication-app h3{
+    padding: 16px ;
+    border-bottom: 2px solid rgb(219, 218, 218);
+}
+
+.security-key{
+    padding: 16px 0px;
+}
+
+.security-key p{
+    color: rgb(129, 128, 128);
+    margin-bottom: 20px;
+}
+
+.security-key button{
+    width: 100%;
+    padding: 4px 0px;
+    border-radius: 5px;
 }
