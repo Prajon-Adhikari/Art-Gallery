@@ -849,12 +849,17 @@
     gap: 30px;
     width: 140px;
     padding: 60px 0px;
+    top: 20px;
 }
 
 .setting-menu a{
     text-decoration: none;
     color: black;
     font-size: 1.1rem;
+}
+
+.setting-menu a:hover{
+    color: rgb(105, 105, 239);
 }
 
 /* personal-information-heading */
@@ -1010,6 +1015,87 @@
 
 .security-key button{
     width: 100%;
-    padding: 4px 0px;
+    padding: 6px 0px;
     border-radius: 5px;
+}
+
+/* notification-section */
+#notifications{
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(219, 218, 218);
+}
+
+.notification-section{
+    padding: 20px 0px;
+}
+
+.notify{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between  ;
+    width: 700px;
+}
+
+.notify p{
+    font-size: 1.2rem;
+}
+
+.enable-container{
+    width: 48px;
+    background-color: rgb(181, 177, 177);
+    border-radius: 20px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+
+.enable-btn{
+    background-color: rgb(129, 128, 128);
+    width: 22px;
+    height: 20px;
+    border-radius: 50% ;
+    
+}
+
+/* deleteaccount */
+#deleteaccount{
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.delete-acc-section{
+    box-shadow: 0px 0px 10px rgb(129, 128, 128);
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.delete-acc-info{
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+}
+
+.delete-acc-info div{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.deactivate-btn{
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+
+.delete-acc{
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(219, 218, 218);
+}
+
+.delete-acc p{
+    color: rgb(106, 106, 106);
 }
