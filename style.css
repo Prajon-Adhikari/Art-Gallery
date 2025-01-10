@@ -303,6 +303,14 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
     cursor: pointer;
+    margin-bottom: 40px;
+    transition:  height 0.2s ease-in-out, margin 0.2s ease-in-out;
+}
+
+.art-container:hover{
+    height: 450px;
+    box-shadow: 0px 0px 15px rgb(8, 8, 8);
+    margin-bottom: 20px;
 }
 
 .art-container h2{
@@ -323,7 +331,6 @@
     display: grid;
     grid-template-columns: repeat(4, 300px);
     justify-content: space-between;
-    row-gap: 40px;
 }
 
 /* aboutus-hero-image */
@@ -455,13 +462,21 @@
     display: grid;
     grid-template-columns: repeat(4, 300px);
     justify-content: space-between;
-    row-gap: 40px;
 }
 
 .painting-purchase{
     height: 470px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
+    margin-bottom: 40px;
+    transition: height 0.2s ease-in-out, margin 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.painting-purchase:hover{
+    box-shadow: 0px 0px 15px rgb(8, 8, 8);
+    height: 480px;
+    margin-bottom: 30px;
 }
 
 .painting-info{
@@ -1064,6 +1079,7 @@
 #deleteaccount{
     font-size: 2.2rem;
     padding-bottom: 20px;
+    margin-top: 80px;
 }
 
 .delete-acc-section{
