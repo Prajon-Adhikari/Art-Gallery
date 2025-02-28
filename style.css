@@ -524,6 +524,18 @@ html, body {
         font-size: 2rem;
     }
 
+    .frames-info h1{
+        font-size: 3rem;
+    }
+
+    .frame-container-2, .frame-container-3, .frame-container-4{
+        display: none;
+    }
+
+    .discovery-image-section img{
+        width: 80%;
+    }
+
     .frames-section {
         gap: 30px;
     }
@@ -537,19 +549,6 @@ html, body {
     }
 }
 
-@media (max-width: 350px){
-    .frames-info h1{
-        font-size: 3rem;
-    }
-
-    .frame-container-2, .frame-container-3, .frame-container-4{
-        display: none;
-    }
-
-    .discovery-image-section img{
-        width: 80%;
-    }
-}
 
 
 /* aboutus-hero-image */
@@ -822,6 +821,117 @@ html, body {
     text-align: right;
     margin:30px;
     cursor: pointer;
+}
+
+@media (max-width:1200px){
+    .artwork-section,.about-painting,.nft-theory p{
+        padding: 60px;
+    }
+
+    .acrylic-painting-container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+
+    .nft-theory{
+        gap: 80px;
+    }
+
+    .nft-info p{
+        width: 400px;
+    }
+
+    .nft-images2 img{
+        width: 240px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .artwork-heading{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .acrylic-painting-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .nft-images2 img{
+        display: none;
+    }
+
+    .nft-images{
+        display: none;
+    }
+
+    .nft-theory{
+        text-align: center;
+    }
+
+    .nft-info p{
+     text-align: center;
+     width: 600px;
+    }
+
+    .nft1{
+        left:20px;
+        top: 340px;
+    }
+
+    .nft5{
+        left:300px;
+        top: 400px;
+    }
+
+    .nft2,.nft4{
+        display: none;
+    }
+
+    .nft3{
+        left:540px;
+        top: 340px;
+    }
+
+    .aboutus-hero-image{
+        font-size: 4rem;
+        padding-top: 200px;
+    }
+}
+
+@media (max-width:426px){
+    .acrylic-painting-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+    .artwork-heading h1{
+        font-size: 3rem;
+    }
+
+    .nft-theory{
+        padding: 0;
+    }
+
+    .nft-info p{
+        text-align: center;
+        width: 300px;
+        padding: 30px 0px;
+       }
+
+    .nft1{
+        left:100px;
+    }
+
+    .nft2,.nft3,.nft4,.nft5{
+        display: none;
+    }
+
+    .aboutus-hero-image{
+        font-size: 3rem;
+        padding-top: 150px;
+    }
 }
 
 
