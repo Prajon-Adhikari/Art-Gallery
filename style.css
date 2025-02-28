@@ -1074,14 +1074,84 @@ html, body {
 }
 
 .mapouter{
-    margin: 60px 0px;
+    margin: 60px 80px;
     display: flex;
     justify-content: center;
-    margin-left: 80px;
+    
+}
+
+.mapouter iframe{
+    width:1200px;
+    height:450px;
 }
 
 #gmap_canvas{
     border-radius: 20px;
+}
+
+@media (max-width:1200px){
+    .contact{
+        margin: 80px 100px;
+        gap: 40px;
+    }
+
+    .panels{
+        margin: 100px 40px;
+    }
+
+    .mapouter iframe{
+        width: 800px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-panel h3{
+        font-size: 0.9rem;
+    }
+
+    .contact-panel p{
+        display: none;
+    }
+
+    .mapouter iframe{
+        width: 600px;
+    }
+}
+
+@media (max-width: 426px){
+    .contact{
+        margin: 100px 20px;
+    }
+
+    .form h2{
+        font-size: 2rem;
+    }
+
+    .input{
+        width: 95%;
+    }
+
+    .name{
+        width: 46%;
+    }
+
+    .panels{
+        flex-direction: column;
+    }
+
+    .contact-panel h3{
+        text-align: center;
+    }
+
+    .mapouter iframe{
+        width: 400px;
+        height: 300px;
+    }
 }
 
 /* Footer */
