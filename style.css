@@ -900,7 +900,7 @@ html, body {
     }
 }
 
-@media (max-width:426px){
+@media (max-width:480px){
     .acrylic-painting-container{
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
@@ -1123,7 +1123,7 @@ html, body {
     }
 }
 
-@media (max-width: 426px){
+@media (max-width: 480px){
     .contact{
         margin: 100px 20px;
     }
@@ -1609,4 +1609,112 @@ html, body {
 
 .delete-acc p{
     color: rgb(106, 106, 106);
+}
+
+@media (max-width: 1200px){
+    .setting-menu{
+        display: none;
+    }
+
+    .personal-information{
+        width: 740px;
+    }
+
+    .authentication{
+        height: 500px;
+    }
+}
+
+@media (max-width:768px){
+    .personal-information{
+        width: 500px;
+    }
+
+    .profile-info h1{
+        font-size: 1.2rem;
+    }
+
+    .profile-info p{
+        font-size: 0.8rem;
+    }
+
+    .security{
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .authentication{
+        height: 400px;
+    }
+
+    .notify{
+        width: 500px;
+    }
+
+    .delete-acc-section{
+        width: 500px;
+    }
+}
+
+@media (max-width:480px){
+    .profile-section{
+        margin: 20px 10px;
+    }
+    
+    .profile{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    
+    .profile-img i{
+        padding: 20px 24px;
+        font-size: 3rem;
+    }
+
+   .profile-details{
+    margin: 10px;
+    padding: 0px;
+   }
+
+   .personal-information,.security, .authentication, .notifications, .notify, .delete-acc-section{
+    width: 405px;
+    }
+
+    .security-name{
+    gap: 50px;
+    }
+
+    .verify-email{
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 10px;
+    }
+
+    .verify-password{
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 10px;
+    }
+    
+    .security-section{
+        width: 300px;
+    }
+
+    .notify p{
+        font-size: 1.1rem;
+    }
+
+    .delete-acc p{
+        width: 290px;
+        padding-top: 4px;
+    }
+
+    .deleteaccount, .notifications, .security-section h1, #myprofile{
+        font-size: 1.6rem;
+        padding-left: 10px;
+    }
+
+    .security-text{
+        padding-left: 10px;
+    }
 }
